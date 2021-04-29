@@ -1,0 +1,50 @@
+   15  ls
+   16  cd csc3320
+   17  pwd
+   18  man -k folder
+   19  mkdir lab2
+   20  cd lab2
+   21  cat > myLab2.txt
+   22  cat -n myLab2.txt
+   23  cd /home/tpham84
+   24  pwd
+   25  cd~
+   26  cd ~
+   27  mkdir Lab2_P2
+   28  cd Lab2_P2
+   29  cp /home/fondel1/Public/RealEstate.csv /home/Lab2_P2
+   30  cp /home/frondel1/Public/RealEstate.csv /home/Lab2_P2
+   31  pwd
+   32  cp /home/frondel1/Public/RealEstate.cvs /home/tpham84/Lab2_P2
+   33  cp /home/frondel1/Public/RealEstate.csv /home/tpham84/Lab2_P2
+   34  ls
+   35  cat RealEstate.csv
+   36  man head
+   37  head RealEstate.csv
+   38  wc .?
+   39  wc ./
+   40  wc RealEstate.csv
+   41  cat wc RealEstate.csv
+   42  cd Lab2_P2
+   43  wc RealEstate.csv
+   44  wc -l RealEstate.csv
+   45  cat -n RealEstate.csv
+   46  mkdir public ../Lab2_P2
+   47  mkdir ../public
+   48  ls /home/tpham84
+   49  cp RealEstate.csv /home/tpham84/public/myRealEstate.csv
+   50  ls /home/tpham84/public
+   51  pwd
+   52  cd ../public
+   53  mkdir -p /Regular /Submission/{Lab2,Lab3}
+   54  mkdir -p ./Regular ./Submission/{Lab2,Lab3}
+   55  ls -R
+   56  mv Regular Others
+   57  ls -R
+   58  cp -R ../Lab2_P2 ./Submission/Lab2
+   59  ls -R
+   60  rm -r ../Lab2_P2
+   61  ls -R ..
+   62  history
+   63  history -50 >> ./Submission/Lab2/Lab2_2.txt
+   64  history 50 >> ./Submission/Lab2/Lab2_2.txt
